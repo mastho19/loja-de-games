@@ -1,0 +1,7 @@
+Após executar o nest new, criar uma database manualmente no workbench.
+Abrir a pasta src do novo projeto e criar uma pasta database.
+Dentro da pasta database criar o arquivo 'database.module.ts' e 'database.providers.ts'
+Copiar para dentro dos arquivos o código do https://docs.nestjs.com/recipes/sql-typeorm.
+
+Na minha entidade, declarar o decorator @entity e permear a classe de acordo com o typeorm,
+utilizando os recursos de column, primarygeneratedcolumn, etc.
